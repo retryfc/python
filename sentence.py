@@ -47,7 +47,7 @@ for item in allres2:
             for item4 in item3:
                 final.write("%s\n" % str(item4 + "."))
 final.close()
-'''
+''' нельзя делать docstring на код,он испольщуется для описание программы т.к. интерпретатор создаёт отдельный файл, в отличии от коментрарий
 beztch2 = open('beztch.txt', mode='r', encoding='ansi')
 
 for line6 in beztch2.readlines():
